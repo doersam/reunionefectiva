@@ -1,0 +1,5 @@
+class Invite < ApplicationRecord
+  belongs_to :user
+  belongs_to :meeting
+  has_many :tasks
+end
